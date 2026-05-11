@@ -15,3 +15,5 @@ Publisher harus tahu ke mana harus mengirimkan pesan (alamat broker).
 Subscriber harus tahu dari mana harus mengambil pesan (alamat broker yang sama).
 
 Karena keduanya menggunakan localhost:5672, ini menandakan bahwa kedua program tersebut berkomunikasi melalui server RabbitMQ yang berjalan di mesin lokal kamu. Jika URL-nya berbeda (misalnya alamat IP yang berbeda), maka Publisher akan mengirim pesan ke tempat yang tidak bisa didengar oleh Subscriber, sehingga pesan tidak akan pernah sampai.
+
+RabbitMQ running image: ![RabbitMQ image][image/rabbitmq.png]
